@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Route } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireModule } from '@angular/fire/compat';
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
@@ -18,6 +21,7 @@ export const authRoutes: Route[] = [{
 
 @NgModule({
   imports: [CommonModule, RouterModule, BrowserAnimationsModule,
+            AngularFirestoreModule, AngularFireModule,
             ReactiveFormsModule, MatFormFieldModule,
             MatInputModule, FlexLayoutModule, MatButtonModule
            ],
