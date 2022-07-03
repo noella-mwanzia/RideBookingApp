@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "driver-app": "apps/driver-app",
+    "driver-app-e2e": "apps/driver-app-e2e",
     "passenger-app": "apps/passenger-app",
     "passenger-app-e2e": "apps/passenger-app-e2e"
   }
