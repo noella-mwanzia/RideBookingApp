@@ -17,7 +17,8 @@
           "apps/passenger-app/src/favicon.ico",
           "apps/passenger-app/src/assets"
         ],
-        "styles": ["apps/passenger-app/src/styles.scss"],
+        "styles": ["apps/passenger-app/src/styles.scss",
+                    "node_modules/font-awesome/css/font-awesome.css"],
         "scripts": []
       },
       "configurations": {
