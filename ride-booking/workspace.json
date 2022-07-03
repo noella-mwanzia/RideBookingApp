@@ -5,6 +5,7 @@
     "driver-app": "apps/driver-app",
     "driver-app-e2e": "apps/driver-app-e2e",
     "features-auth": "libs/features/auth",
+    "interfaces": "libs/interfaces",
     "passenger-app": "apps/passenger-app",
     "passenger-app-e2e": "apps/passenger-app-e2e"
   }
