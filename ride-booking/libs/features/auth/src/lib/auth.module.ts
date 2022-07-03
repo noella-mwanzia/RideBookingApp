@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Route } from '@angular/router';
 import { LoginComponent } from './componets/login/login.component';
 
-export const featuresAuthRoutes: Route[] = [];
+export const authRoutes: Route[] = [{
+  path:'login', component: LoginComponent
+}];
 
 @NgModule({
   imports: [CommonModule, RouterModule],
   declarations: [LoginComponent],
 })
-export class FeaturesAuthModule {}
+export class AuthModule {}
