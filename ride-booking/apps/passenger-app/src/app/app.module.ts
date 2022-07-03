@@ -6,9 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AuthModule, authRoutes } from '@ride-booking/features/auth';
 
-const routes: Routes = [
-  {path: '', children: authRoutes}
-];
+const routes: Routes = [{path: '', children: authRoutes}];
 
 @NgModule({
   declarations: [AppComponent],
