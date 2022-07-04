@@ -13,7 +13,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatButtonModule } from '@angular/material/button';
 
 import { InterfacesModule } from '@ride-booking/interfaces';
-import { LoginComponent } from './componets/login/login.component';
+import { LoginComponent } from './components/login/login.component';
 
 export const authRoutes: Route[] = [{
   path:'', component: LoginComponent
@@ -25,8 +25,7 @@ export const authRoutes: Route[] = [{
             ReactiveFormsModule, MatFormFieldModule,
             MatInputModule, FlexLayoutModule, MatButtonModule,
             InterfacesModule
-
            ],
   declarations: [LoginComponent],
-})
+}) 
 export class AuthModule {}
