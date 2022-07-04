@@ -12,7 +12,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatButtonModule } from '@angular/material/button';
 
-
+import { InterfacesModule } from '@ride-booking/interfaces';
 import { LoginComponent } from './componets/login/login.component';
 
 export const authRoutes: Route[] = [{
@@ -23,7 +23,9 @@ export const authRoutes: Route[] = [{
   imports: [CommonModule, RouterModule, BrowserAnimationsModule,
             AngularFirestoreModule, AngularFireModule,
             ReactiveFormsModule, MatFormFieldModule,
-            MatInputModule, FlexLayoutModule, MatButtonModule
+            MatInputModule, FlexLayoutModule, MatButtonModule,
+            InterfacesModule
+
            ],
   declarations: [LoginComponent],
 })
