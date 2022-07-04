@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Route } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -17,9 +17,10 @@ import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 
 
-export const authRoutes: Route[] = [{
-  path:'', component: LoginComponent
-}];
+export const authRoutes: Route[] = [
+  {path:'', component: LoginComponent},
+  {path:'sign-up', component: SignUpComponent}
+];
 
 @NgModule({
   imports: [CommonModule, RouterModule, BrowserAnimationsModule,
